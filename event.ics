@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Shanghai
+TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Shanghai
+X-LIC-LOCATION:Asia/Shanghai
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:CST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20190808T025907Z
+UID:20190808T025907Z-581477028@marudot.com
+DTSTART;TZID=Asia/Shanghai:20190907T160000
+DTEND;TZID=Asia/Shanghai:20190907T210000
+SUMMARY: 2019 START Celebration
+DESCRIPTION:盛大邀請醫師先進參加Neurosurgery forum ，特邀請日本大師 Dr. Masahiro Toda ，並緊接著參與‘’疾速非凡 與時俱進"晚宴\nComplications and Innovation of Clinical Neuro Surgery Forum\n時間:2019/9/7 (Sat.) 16:00-18:30\n地點:台北喜來登飯店 2F 瑞穗園\n\nFloseal START Celebration\n時間:2019/9/7 (Sat.) 18:40-21:00\n地點:台北喜來登飯店 B2 福廳
+LOCATION:台北喜來登飯店
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION: 2019 START Celebration
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
